@@ -88,6 +88,7 @@ plt.ylabel('CO2 emissions')
 plt.title("CO2 emission rate in New Zealand")
 plt.legend(loc='best', fancybox=True, shadow=True)
 plt.show()
+plt.savefig("Newzealand.png")
 
 sigma = np.sqrt(np.diag(cov))
 print(sigma)
@@ -116,6 +117,7 @@ plt.ylabel('CO2 Emission')
 plt.title("CO2 Emission rate in Korea")
 plt.legend(loc='best', fancybox=True, shadow=True)
 plt.show()
+plt.savfig("Korea.png")
 
 #Extracting the sigmas from diagonal of covarience matrix
 sigma = np.sqrt(np.diag(cov))
@@ -145,6 +147,7 @@ plt.ylabel('CO2 Emissions')
 plt.title("CO2 Emission rate in India")
 plt.legend(loc='best', fancybox=True, shadow=True)
 plt.show()
+plt.savfig("India.png")
 
 #Extracting the sigmas from diagonal of covarience matrix
 sigma = np.sqrt(np.diag(cov))
